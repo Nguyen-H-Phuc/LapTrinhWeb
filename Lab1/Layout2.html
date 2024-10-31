@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      min-height: 500px;
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .header {
+      height: 80px;
+      border: solid 1px gray;
+      text-align: center;
+    }
+    .nav {
+      height: 60px;
+      border: solid 1px gray;
+      text-align: center;
+    }
+    .content {
+      min-height: 300px;
+      border: solid 1px gray;
+      text-align: center;
+      display: flex;
+    }
+    .footer {
+      height: 60px;
+      border: solid 1px gray;
+      text-align: center;
+    }
+    .left {
+      border: solid 1px gray;
+      flex: calc(30% - 2px);
+    }
+    .right {
+      border: solid 1px gray;
+      flex: calc(70% - 2px);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">HEADER SECTION</div>
+  <div class="nav">NAVIGATION BAR</div>
+  <div class="content">
+    <div class="left">INDEX</div>
+    <div class="right">CONTENT SECTION</div>
+  </div>
+  <div class="footer">FOOTER SECTION</div>
+</div>
+</body>
+</html>

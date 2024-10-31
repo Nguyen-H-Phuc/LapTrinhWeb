@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+      color: black;
+      font-family: sans-serif, Tahoma;
+      height: 100%;
+    }
+
+    #container{
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+      -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+      box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+      height: 100%;
+    }
+
+    #container .menu{
+      height: 60px;
+      background-color: #ccc;
+      border-bottom: 2px solid darkred;
+      border-left: 5px solid darkred;
+    }
+
+    #container .menu ul{
+      margin: 0;
+      padding: 0;
+    }
+
+    #container .menu ul li{
+      list-style-type: none;
+    }
+
+    #container .menu>ul>li, #container .menu>ul>li ul.sub li{
+      float: left;
+      width: fit-content;
+      padding: 23px;
+      font-weight: bold;
+    }
+
+    #container .menu ul>li:hover{
+      background-color: darkred;
+      color: white;
+      cursor: pointer;
+    }
+
+    #container .menu>ul>li ul.sub{
+      position: absolute;
+      background-color: #ccc;
+      margin-left: -23px;
+      margin-top: 23px;
+      display: none;
+
+    }
+
+    #container .menu>ul>li ul.sub li{
+      float: none;
+      color: black;
+      width: auto;
+      border-bottom: 1px solid #ddd;
+    }
+
+    #container .menu>ul>li ul.sub li:hover{
+      color: white;
+    }
+
+    #container .menu ul>li:hover ul.sub{
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="container">
+  <div class="menu">
+    <ul>
+      <li>HOME</li>
+      <li>
+        <span>PRODUCTS</span>
+        <ul class="sub">
+          <li>Tivi</li>
+          <li>May tinh xach tay</li>
+        </ul>
+      </li>
+      <li>ABOUT US</li>
+      <li>CONTACT</li>
+    </ul>
+
+  </div>
+</div>
+
+</body>
+</html>

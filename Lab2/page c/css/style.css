@@ -1,0 +1,330 @@
+html, body, p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: sans-serif, Tahoma;
+}
+
+/* For id*/
+#section_header_2_dark{
+    background-color: #333;
+    height: 100px;
+}
+#section_header_2_dark .navbar-header{
+    width: 50%;
+    float: left;
+}
+#section_header_2_dark .navbar-header img{
+    width: 170px;
+    margin-top: 30px;
+}
+
+#section_header_2_dark .navbar-collapse{
+    width: 50%;
+    float: right;
+}
+
+#section_header_2_dark .navbar-collapse ul{
+ margin: 0;
+    padding: 0;
+}
+
+#section_header_2_dark .navbar-collapse ul li{
+    list-style-type: none;
+    float: left;
+    padding: 40px 25px;
+}
+
+#section_header_2_dark .navbar-collapse ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 120%;
+}
+#section_header_2_dark .navbar-collapse ul li span.text_span {
+    color: #ffcc33;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 120%;
+}
+#section_header_2_dark .navbar-collapse ul li.icon-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+#section_pix_4 .page{
+    width: 1200px;
+    float: none;
+
+}
+/* Container for the entire section */
+.creative_video_header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creative_header .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.section_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.bgvid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section_wrapper {
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title_style {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitle_style {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width:700px;
+    margin: 0 auto;
+}
+
+.email_subscribe {
+    font-size: 0;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0; /* Xóa khoảng cách bên trong */
+ /* Khung bao quanh */
+    display: inline-block; /* Dùng flexbox để đặt các phần tử cùng dòng */
+    border-radius: 5px; /* Bo góc cho toàn khối */
+    overflow: hidden; /* Đảm bảo các phần tử bên trong không làm hỏng bo góc */
+}
+
+.email_subscribe input {
+    padding: 15px;
+    font-size: 16px;
+    border: 10px solid black;
+    border-right: 5px solid black;
+    width: 300px;
+    border-radius: 0;
+    margin: 0;
+
+}
+
+.subscribe_btn {
+    padding: 15px 25px;
+    background-color: #ffcc33;
+    color: #333;
+    border: 10px solid black;
+    border-left: 5px solid black;/* Xóa khung của nút */
+    font-size: 16px;
+    border-radius: 0; /* Xóa bo góc để liền với ô nhập */
+    cursor: pointer;
+}
+
+.subscribe_btn:hover {
+    background-color: #e6b800;
+    font-size: 13px;
+}
+
+.note_st {
+    margin: 30px;
+}
+
+#section_university_5 {
+    background-color: #fff;
+    height: 730px;
+}
+/*
+ */
+
+.join_us_section {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.zone_left {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.psingle_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon_st {
+    height: 160px;
+    width: 125px;
+    margin-right: 56px;
+}
+
+.icon_st img {
+    width: 160px;
+    height: 125px;
+}
+
+.text_st .title_st {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.text_st .subject_st {
+    font-size: 15px;
+    color: #b7b7b7;
+}
+
+.substyle {
+    width: 376px;
+    height: 550px;
+    background-color: #ebeaea;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    float: right;
+
+}
+
+.title-style {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.text-style {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #666;
+}
+
+
+#contact_form1 input {
+    width: 374px;
+    height: 65px;
+    align-items: center;
+    margin-bottom: 26px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#countries {
+    width: 376px;
+    height: 50px;
+    margin-bottom: 26px;
+}
+#submit_btn_6 {
+    width: 376px;
+    height: 50px;
+    background-color: #7cc576;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.section_ecourse_7 {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6; /* Màu nền của khối */
+    padding: 20px; /* Đệm bên trong khối */
+    border-radius: 5px; /* Bo góc */
+    margin-top: 40px; /* Khoảng cách với phần nội dung phía trên */
+}
+
+
+.socbuttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottom-icons {
+    display: flex; /* Sử dụng flexbox để sắp xếp các nút ngang hàng */
+    list-style: none; /* Bỏ dấu chấm cho danh sách */
+    margin: 0; /* Không có khoảng cách bên ngoài */
+    padding: 0; /* Không có khoảng cách bên trong */
+}
+
+.bottom-icons li {
+    margin-right: 15px; /* Khoảng cách giữa các nút */
+    margin-bottom: 10px;
+}
+
+.bottom-icons li a {
+    color:#bbbbbb; /* Màu chữ cho biểu tượng */
+    font-size: 14px; /* Kích thước biểu tượng */
+    text-decoration: none; /* Không có gạch chân */
+}
+
+.likes_st {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.pixfort_st {
+    color: #6c499a;
+}
+.likes_st {
+    float: right;
+    font-size: 14px; /* Kích thước chữ */
+    color: #ccc; /* Màu chữ */
+    text-align: center; /* Căn giữa đoạn văn bản */
+    margin-bottom: 10px; /* Khoảng cách phía dưới */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For class*/
+.container{
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
